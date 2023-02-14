@@ -90,21 +90,21 @@
 // Mi edad es menor a la de mi compañero: false
 
 
-let edad_1 = (prompt("Ingrese su edad..."));
+// let edad_1 = (prompt("Ingrese su edad..."));
 
-let edad_2 = (prompt("Ingrese la edad de su compañero..."));
+// let edad_2 = (prompt("Ingrese la edad de su compañero..."));
 
-let edadesIguales = edad_1 == edad_2;
+// let edadesIguales = edad_1 == edad_2;
 
-let soyMayor = edad_1 > edad_2;
+// let soyMayor = edad_1 > edad_2;
 
-let soyMenor = edad_1 < edad_2;
+// let soyMenor = edad_1 < edad_2;
 
-console.log("Mi edad es igual a  la de mi compañero" + " " + edadesIguales);
+// console.log("Mi edad es igual a  la de mi compañero" + " " + edadesIguales);
 
-console.log("Mi edad es mayor a la de mi compañero" + " " + soyMayor);
+// console.log("Mi edad es mayor a la de mi compañero" + " " + soyMayor);
 
-console.log("Mi edad es menor a la de mi compañero" + " " + soyMenor);
+// console.log("Mi edad es menor a la de mi compañero" + " " + soyMenor);
 
 /////-----------------------------
 
@@ -112,18 +112,18 @@ console.log("Mi edad es menor a la de mi compañero" + " " + soyMenor);
 //  mostrar por consola un mensaje que diga: Soy mayor de edad y el valor de la variable.
 
 
-let soyMayorDeEdad = edad_1 > 18;
+// let soyMayorDeEdad = edad_1 > 18;
 
-console.log("Soy mayor de edad y el valor de la variable" + " " + soyMayorDeEdad);
+// console.log("Soy mayor de edad y el valor de la variable" + " " + soyMayorDeEdad);
 
 // Introducir por pantalla la edad y la altura de una persona y guardarlas en variables separadas 
 // y en una variable llamada puedeSubir el resultado de la operación resultante de si la persona es mayor de 6 años y además tiene una altura mínima de 120cm y mostrar 
 // por consola un mensaje como el siguiente: Puede subir a la atracción y el valor de la variable resultante.
 
-var edadPersona = parseInt(prompt("Ingrese su edad..."));
+// var edadPersona = parseInt(prompt("Ingrese su edad..."));
 
-var alturaPersona = parseInt(prompt("Ingrese su altura..."));
+// var alturaPersona = parseInt(prompt("Ingrese su altura..."));
 
-var puedeSubir = (edadPersona > 6 && alturaPersona > 120);
+// var puedeSubir = (edadPersona > 6 && alturaPersona > 120);
 
-console.log("Puede subir a la atracción y el valor de la variable ", puedeSubir);
+// console.log("Puede subir a la atracción y el valor de la variable ", puedeSubir);

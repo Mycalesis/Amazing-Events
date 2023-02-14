@@ -1,0 +1,43 @@
+
+/* header------------------ */
+.container ul {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    text-decoration: none;
+    border-color: rgb(135, 190, 222);
+    border: 3px solid rgb(37, 58, 151);
+}
+
+header {
+    background-color: rgb(135, 212, 222);
+    border: 3px solid rgb(37, 58, 151);
+}
+
+.container {
+    display: flex;
+}
+
+li {
+    background-color: #d90268;
+    color: aliceblue;
+}
+
+.active {
+    background-color: #5e0f34;
+    color: aliceblue;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    }
+
+/* fin header------------- */
+
+.descripcionDePagina {
+    background-image: url("assets/background/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular.jpg");
+}
