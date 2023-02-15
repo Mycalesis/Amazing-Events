@@ -4,23 +4,23 @@
     display: flex;
     justify-content: center;
 }
-ul li {
-    text-decoration: none;
-    border-color: rgb(135, 190, 222);
-    border: 3px solid rgb(37, 58, 151);
-}
 
 header {
-    background-color: rgb(135, 212, 222);
-    border: 3px solid rgb(37, 58, 151);
+    background-color: darksalmon;
 }
 
 .container {
     display: flex;
 }
-
-li {
+.nav-item{
     background-color: #d90268;
+    color: aliceblue;
+    border: 0;
+    margin: 5px;
+    border: 1px solid rgb(2, 6, 22);
+}
+
+a.nav-link {
     color: aliceblue;
 }
 
@@ -39,5 +39,62 @@ li {
 /* fin header------------- */
 
 .descripcionDePagina {
-    background-image: url("assets/background/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular.jpg");
+    background-color: #d90268;
+    padding: 1vw;
+    border: 2px solid;
+    position: relative;
+    bottom: 1vw;
+}
+
+.col-4{
+    display:flex;
+    font-family: Arial;
+    color:darksalmon;
+    font-size: 2vw;
+    justify-content: center;
+    flex-direction: row;
+}
+
+span {
+    text-decoration:none;
+    color: darksalmon;
+}
+
+#flecha1, #flecha2{
+    text-decoration-line:none;
+}
+
+/* ----Footer---- */
+
+footer{
+    background-color: #d90268;
+    padding: 1vw;
+    border: 2px solid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .col-6 {
+    display:flex;
+    justify-content: center;
+}
+
+li#face, li#insta, li#wpp {
+    text-decoration-line: none;
+}
+
+.bi{
+    font-size: 2vw;
+    padding: 2.5vw;
+    color:#d90268;
+}
+
+a .bi {
+    padding: 0.4vw;
+    margin: 0.5vw;
+    width: 100%;
+    border-radius: 100px;
+    background-color: darksalmon;
 }
