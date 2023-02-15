@@ -24,9 +24,9 @@ a.nav-link {
     color: aliceblue;
 }
 
-.active {
-    background-color: #5e0f34;
-    color: aliceblue;
+#selected {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #ce2aad;
 }
 .col-6 {
     flex: 0 0 auto;
@@ -58,6 +58,7 @@ a.nav-link {
 span {
     text-decoration:none;
     color: darksalmon;
+    font-size: 2vw;
 }
 
 #flecha1, #flecha2{
@@ -98,3 +99,14 @@ a .bi {
     border-radius: 100px;
     background-color: darksalmon;
 }
+
+
+/* -------Index--------*/
+
+/* .container-fluid {
+    
+} */
+
+
+
+/*-------FinIndex----- */
