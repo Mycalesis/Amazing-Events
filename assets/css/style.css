@@ -71,7 +71,7 @@ footer{
     background-color: #d90268;
     padding: 1vw;
     border: 2px solid;
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -103,10 +103,39 @@ a .bi {
 
 /* -------Index--------*/
 
-/* .container-fluid {
-    
-} */
+.container-fluid {
+    margin: 2vw;
+}
 
-
+div.row.g-0 {
+    border: 0.2vw solid #d90268;
+    color: #d90268;
+    background-color: darksalmon;
+}
 
 /*-------FinIndex----- */
+/* --------Contact--------- */
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: #d90268;
+}
+
+#boton {
+    background-color: #ce2aad;
+    border: 0.2vw solid #d90268;
+}
+#divDeboton{
+    display: flex;
+    justify-content: end;
+}
+/* ------finContact-------- */
+#lupa {
+    width: 10%;
+    font-size:1vw;
+    margin:0;
+}
+
