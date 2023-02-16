@@ -187,4 +187,30 @@ a.btn.btn-primary{
     background-color: #861b4d;
     border: 1px solid black;
 }
-/* -----------------Fin----------------- */
+/* ------------------Fin----------------- */
+
+/* -----------------Stats------------------ */
+div.container.table{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+}
+.table th{
+    font-size: 2vw;
+    color:#d90268;
+    padding: 5px;
+    background-color: darksalmon;
+    border: 2px solid #d90268;
+}
+
+.table td{
+    padding-top:1.5vw;
+    margin-left: 1vw;
+    padding: 2vw;
+    font-size: 1vw;
+    text-align: center;
+    border: 2px solid #d90268;
+}
+
+/* ----------------finStats-------------------- */
