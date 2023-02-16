@@ -122,7 +122,9 @@ div.row.g-0 {
 
 label {
     color: #d90268;
+    margin-right: 1vw;
 }
+
 
 #boton {
     background-color: #ce2aad;
@@ -132,10 +134,57 @@ label {
     display: flex;
     justify-content: end;
 }
-/* ------finContact-------- */
+/*------finContact--------*/
+
+
+/*-------upcomingEvents, pastEvents, home--------*/
 #lupa {
     width: 10%;
     font-size:1vw;
     margin:0;
+    background-color: #d90268;
+    border: 2px solid black;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
 }
 
+#resize {
+    font-size: medium;
+}
+
+.col-7 {
+    margin-left: 4vw;
+}
+
+div#eventcard.row {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+}
+
+div.card.m-2 {
+    border: 0.2vw solid #d90268;
+    color: #d90268;
+    background-color: rgb(229, 174, 155);
+}
+
+.card-img-top {
+    width: 90%;
+    height: 50%;
+}
+p.precio{
+    font-size: 1vw;
+    color:#861b4d
+}
+h5.card-title {
+    color:#861b4d
+}
+a.btn.btn-primary{
+    background-color: #861b4d;
+    border: 1px solid black;
+}
+/* -----------------Fin----------------- */
