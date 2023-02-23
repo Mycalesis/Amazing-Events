@@ -127,3 +127,33 @@
 // var puedeSubir = (edadPersona > 6 && alturaPersona > 120);
 
 // console.log("Puede subir a la atracción y el valor de la variable ", puedeSubir);
+
+// ejercicio 1 bucles
+
+// let nuevoNumero = prompt("Ingrese el número del cual desee conocer la tabla de multiplicar");
+
+// for (let i = 1; i <= 10; i++) {
+//     let resultado = nuevoNumero * i;
+//     console.log(nuevoNumero + " x " + i + " = " + resultado);
+// }
+
+// ejercicio 2
+// let resultado = 0;
+// let i = prompt("Ingrese un número");
+
+// while (parseInt(i) > 0) { 
+//   resultado += parseInt(i); 
+//   i = prompt("Ingrese otro número (0 para salir)");
+// }
+
+// console.log("La suma de los números ingresados es: " + resultado);
+// ejercicio3
+// let resultado = 0;
+// let i = prompt("Ingrese un número");
+
+// while (parseInt(i) > 0) { 
+//     resultado += parseInt(i); 
+//     i = prompt("Ingrese otro número (0 para salir)");
+// }
+
+// console.log("La suma de los números ingresados es: " + resultado);
