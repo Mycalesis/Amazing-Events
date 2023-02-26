@@ -5,35 +5,35 @@ for(let event of data.events){
     let currentDate = new Date(data.currentDate);
     let eventDate = new Date(event.date);
     if (eventDate < currentDate) {
-        htmlPast += `<div class="row" id="eventcard">
-        <div class="card m-2 py-2" style="width: 18rem;" Id="Eventcard">
-            <img src= ${data.image} class="card-img-top imageCard" alt="Museum event picture">
-            <div class="card-body">
-                <h5 class="card-title">${data.title}</h5>
-                <p class="card-text">${data.description}</p>
-                <div class="row">
-                    <div class="col-4"><p class="precio"><b>Price:</b><br>${data.price}</p></div>
-                    <div class="col-8"><a href="#" class="btn btn-primary">more info</a></div>    
-                </div>
-            </div>
-            </div>
-        </div>`;     
-    } else {
-        htmlFuture += `<div class="row" id="eventcard">
-                            <div class="card m-2 py-2">
-                                <img src = ${data.image} alt="Museum event picture">
-                                <div class="card-body">
-                                    <h5 class="card-title">${data.title}</h5>
-                                    <p class="card-text">${data.description}</p>
-                                    <div class="row">
-                                        <div class="col-4"><p class="precio"><b>Price:</b><br>${data.price}</p></div>
-                                        <div class="col-8"><a href="#" class="btn btn-primary">more info</a></div>    
-                                    </div>
-                                </div>
+        htmlPast += `<div class="card m-2 py-2" style="width: 18rem"; id="eventcard">
+                        <img src = ${event.image} class="card-img-top imageCard" ">
+                        <div class="card-body">
+                            <h5 class="card-title">${event.name}</h5>
+                            <p class="card-text">${event.category}</p>
+                            <p class="card-text"> ${event.date}</p>
+                            <p class="card-text">${event.description}</p>
+                            <div class="row">
+                                <div class="col-4"><p class="precio"><b>Price:</b><br>${event.price}</p></div>
+                                <div class="col-8"><a href="#" class="btn btn-primary">more info</a></div>    
                             </div>
-                        </div>`;
+                        </div>
+                    </div>`;     
+            } else {
+                htmlFuture += `<div class="card m-2 py-2" style="width: 18rem"; id="eventcard">
+                <img src = ${event.image} class="card-img-top imageCard" ">
+                <div class="card-body">
+                    <h5 class="card-title">${event.name}</h5>
+                    <p class="card-text">${event.category}</p>
+                    <p class="card-text"> ${event.date}</p>
+                    <p class="card-text">${event.description}</p>
+                    <div class="row">
+                        <div class="col-4"><p class="precio"><b>Price:</b><br>${event.price}</p></div>
+                        <div class="col-8"><a href="#" class="btn btn-primary">more info</a></div>    
+                    </div>
+                </div>
+            </div>`;
             }
-    htmlEvents += `<div class="card m-2 py-2" style="width: 18rem"; id="eventcard">
+            htmlEvents += `<div class="card m-2 py-2" style="width: 18rem"; id="eventcard">
                         <img src = ${event.image} class="card-img-top imageCard" ">
                         <div class="card-body">
                             <h5 class="card-title">${event.name}</h5>

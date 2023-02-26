@@ -2,7 +2,7 @@
 const data = {
     "currentDate": "2022-01-01",
     "events": [
-        {
+                {
                     _id: 1,
                     "image":"https://i.postimg.cc/fyLqZY9K/10-K-for-life.jpg",
                     "name":"10K for life",
