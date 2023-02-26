@@ -1,17 +1,7 @@
-let htmlEvents = "";
-for(let event of data.events){
-    let currentDate = new Date(data.currentDate);
-    let eventDate = new Date(event.date);
+//accediendo a un div del dom que tiene class card home.html
+let containerOfcard = document.getElementById("eventcard"); 
+let card = document.getElementById("Eventcard");
 
-    if (eventDate < currentDate) {
-        console.log("evento pasado")
-    } else {
-        console.log("evento futuro")
-    }
-    htmlEvents += `<div class="card">
-<img src="${event.image}" alt="">
-    <h3>${event.name}</h3>
-    <p>${event.description}</p>
-</div>`;
-}
-console.log(htmlEvents);
+//ahora lo cambiamos por la data de la task
+containerOfcard.innerHTML += `${htmlEvents}`;
+card.innerHTML += `${htmlEvents}`;
