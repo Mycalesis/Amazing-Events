@@ -18,7 +18,13 @@ header {
     border: 0;
     margin: 5px;
     border: 1px solid rgb(2, 6, 22);
+    display: flex;
+    justify-content: center;
 }
+.navbar-toggler.collapsed{
+    left: 17vw;
+    position: relative;
+    }
 
 a.nav-link {
     color: aliceblue;
@@ -144,6 +150,8 @@ label {
     margin:0;
     background-color: #d90268;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
 }
 #search{
     display: flex;
@@ -151,11 +159,6 @@ label {
     justify-content: end;
     width: 100%;
 }
-
-#resize {
-    font-size: medium;
-}
-
 .col-7 {
     margin-left: 4vw;
 }
@@ -177,7 +180,7 @@ div.card.m-2 {
     height: 40%;
 }
 p.precio{
-    font-size: 1vw;
+    font-size: 15px;
     color:#861b4d
 }
 h5.card-title {
@@ -212,5 +215,19 @@ div.container.table{
     text-align: center;
     border: 2px solid #d90268;
 }
-
-/* ----------------finStats-------------------- */
+/* ----------------finStats-------------------*/
+@media (max-width: 870px) {
+    #sectorS {
+        display:flex;
+        flex-direction: column;
+    }
+    #sectorS div.col-4 {
+        width: 100%;
+        display:flex;
+        justify-content: center;
+    }
+    #sectorS div.col-7 {
+        width: 100%;
+        padding-bottom: 2vw;
+    }
+}
