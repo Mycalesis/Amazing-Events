@@ -64,7 +64,7 @@ a.nav-link {
 span {
     text-decoration:none;
     color: darksalmon;
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 #flecha1, #flecha2{
@@ -146,7 +146,7 @@ label {
 /*-------upcomingEvents, pastEvents, home--------*/
 #lupa {
     width: 10%;
-    font-size:1vw;
+    font: size 15px;;
     margin:0;
     background-color: #d90268;
     border: 2px solid black;
@@ -200,7 +200,7 @@ div.container.table{
     padding: 5px;
 }
 .table th{
-    font-size: 2vw;
+    font-size: 15px;
     color:#d90268;
     padding: 5px;
     background-color: darksalmon;
@@ -211,7 +211,7 @@ div.container.table{
     padding-top:1.5vw;
     margin-left: 1vw;
     padding: 2vw;
-    font-size: 1.5vw;
+    font-size: 12px;
     text-align: center;
     border: 2px solid #d90268;
 }
@@ -229,5 +229,11 @@ div.container.table{
     #sectorS div.col-7 {
         width: 100%;
         padding-bottom: 2vw;
+    }
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+        margin-bottom: 2rem;
+        position: inherit; 
     }
 }
