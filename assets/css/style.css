@@ -159,15 +159,25 @@ label {
     width: 100%;
 }
 .col-7 {
-    margin-left: 4vw;
     display: flex;
 }
 
-ul {
-    list-style: none;
+div.row.eventcard {
+    padding-top: 5vw;
 }
 
-div#eventcard.row {
+.col-7 ul {
+    list-style: none;
+    margin: 0;
+    width: 8vw;
+    font-size: 10px;
+}
+
+.col-7 li{
+    width: 10vw;
+}
+
+div.row.eventcard {
     display: flex;
     justify-content: center;
     padding-top: 5vw;
